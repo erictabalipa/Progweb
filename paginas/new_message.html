@@ -1,0 +1,101 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="..\css\pagina_principal.css">
+    <link type="text/css" rel="stylesheet" href="..\css\new_message.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/criar-email.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <title>Novo Email</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <i class="fa fa-bars"></i>  
+                <input class="pesquisar" placeholder="Pesquisar"> 
+            </div>
+        </div>
+        <div class="menu">
+            <div class="divnovamensagem">
+                <button onclick="location.href='new_message.html'" class="newmessage" type="submit">+ Nova Mensagem</button>
+                <span class="spanCaixaEntrada">Compor Novo Email</span>   
+            </div>
+        </div>
+        <div class="menu1">
+            <table cellspacing="0" class="tableMenu">
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span>Favoritos</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span onclick="location.href='pagina_principal.html'">Caixa de entrada</span>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span>Lixo Eletrônico</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span>Rascunho</span>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span onclick="location.href='enviados.html'">Itens enviados</span>
+                        </a>
+                    </td>
+                </tr>            
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span>Itens excluídos</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="aMenu">
+                            <i class="fa fa-bars"></i>
+                            <span>Arquivo morto</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>  
+        </div>
+        <div class="messageContent">
+            <input type="hidden" id="id"/>
+            <label>Para:</label><br>
+            <input type="text" id="to" placeholder=" Email de envio"><br><br>
+            <label>Cc:</label><br>
+            <input type="text" id="cc" placeholder=" Email de cópia"><br><br>
+            <label>Assunto:</label><br>
+            <input type="text" id="subject" placeholder=" Assunto do email"><br><br>
+            <label>Compor email:</label><br>
+            <textarea type="text" id="text" placeholder="Corpo do email"></textarea><br><br>
+            <button id="bCriarEmail">Enviar Email</button>
+            <div class="divError" id="divError"></div>
+            <div class="divSuccess" id="divSuccess"></div>
+        </div>
+    </body>
+</html> 

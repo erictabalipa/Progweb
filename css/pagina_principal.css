@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding:0;
+
+}
+.header{
+    width: 100%;
+    margin: 0;
+    border: solid 1px #4267b2;
+    padding: 0;
+    height: 40px;
+    background-color: #4267b2;
+}
+
+.iconheader{
+    margin-top: 7px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.menuheader{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    background-color: rgb(74, 170, 248);
+}
+
+.navbar{
+    margin-top: 6px;
+    width: 100%;
+}
+
+.navbar i{
+    margin-left: 5px;
+    font-size: 17px;
+}
+.pesquisar{
+    margin-left: 7px;
+    border-radius: 3px;
+    border: none;
+    width:197px;
+    padding: 7px;
+}
+
+.divnovamensagem{
+    width: 100%;
+    background-color: #e9ebee;
+}
+.menu table td {
+    height: 25px;
+    width: 200px;
+}
+.newmessage{
+    background-color:#e9ebee;
+    border: none;
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+.newmessage:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.spanCaixaEntrada{
+    font-weight: bold;
+    margin-left: 40px;
+    font-family: Verdana;
+}
+
+.menu1{
+    height: 100%;
+    width: 230px;
+    background-color: #e9ebee;
+    float: left;
+}
+
+.tableMenu, tr, td{
+    padding: 0px;
+ }
+
+
+.tableMenu tr:nth-child(2n+1) a{
+    background-color:#B2DFEE;
+    border: 1px solid #B2DFEE;
+    
+ }
+
+ .tableMenu tr:nth-child(2n) a{
+    background-color:#CAE1FF;
+    border: 1px solid #CAE1FF;
+ }
+
+.aMenu{
+    display: inline-block;
+    width:228px;
+    height: 35px;
+    
+ }
+
+.aMenu span{
+    position: relative;
+    top: 25%;
+    margin-left: 35px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.aMenu i{
+    position: relative;
+    top: 25%;
+    font-size: 17px;
+    margin-left: 5px;
+    
+}
+
+.tableMenu tr a:hover{
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    cursor: pointer;
+}
+
+.content{
+    float: left;
+    border: none;
+    position: relative;
+    padding: 2px;
+    
+}
+
+.tableEmail {
+    border-collapse: collapse;
+    width: 140%;
+}
+
+.headEmail {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.headEmail th{
+    padding: 5px;
+}
+
+.bodyEmail{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.bodyEmail td{
+    padding: 3px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 

@@ -1,0 +1,67 @@
+label{
+    font-family: fantasy;
+}
+ input{
+     width: 1000px;
+     height: 25px;
+     border: 1px solid rgb(160, 160, 160);
+     border-radius: 4px;
+ }
+
+textarea{
+    width: 1000px;
+     height: 200px;
+     border: 1px solid rgb(160, 160, 160);
+     border-radius: 4px;
+} 
+
+.messageContent{
+    margin-top:1%; 
+    margin-left:18%;
+}
+
+#bCriarEmail{
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: rgb(17, 175, 12);
+    border: none;
+    border-radius: 4px;
+}
+
+#bCriarEmail:hover{
+    background-color: rgb(12, 138, 8);
+    cursor: pointer;
+}
+
+.divSuccess{
+    font-size: 25px;
+    text-align: center;
+    color: green;
+    background-color: white;
+    height: 30px;
+    width: 370px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 57%;
+    margin-top: 0px;
+}
+
+.divError{
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    background-color: white;
+    height: 30px;
+    width: 370px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 0px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
