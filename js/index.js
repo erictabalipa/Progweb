@@ -5,7 +5,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "http://localhost/progweb/paginas/php/login.php",
+            url: "../paginas/php/login.php",
             success:function(retornoLogin){
                 var usuario = retornoLogin.user;
                 var senha = retornoLogin.password;

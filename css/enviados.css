@@ -27,6 +27,13 @@ body {
     background-color: rgb(74, 170, 248);
 }
 
+.tdText{
+    max-width: 85ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .navbar{
     margin-top: 6px;
     width: 100%;
@@ -155,7 +162,7 @@ body {
 
 .bodyEmail td{
     padding: 5px;
-    width: 300px;
+    width: 200px;
 }
 
 textarea:focus, input:focus, select:focus {
